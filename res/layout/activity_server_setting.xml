@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#147FD6"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/return_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="Autelan Smart Client"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F5F5F5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- 上报的url -->
+    <TextView android:id="@+id/avURL"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/main_layout_URL" />
+    <EditText
+        android:id="@+id/avURlvalue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <!-- 采集的ssid -->
+    <TextView android:id="@+id/ssid"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/main_layout_SSID" />
+    <EditText
+        android:id="@+id/ssidvalue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <!-- 采集周期 -->
+    <TextView android:id="@+id/collect_period"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/server_layout_collect_period" />
+    <EditText
+        android:id="@+id/collect_period_value"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <!-- 采集频率-->
+     <TextView android:id="@+id/collect_rate"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/server_layout_collect_rate" />
+    <EditText
+        android:id="@+id/collect_rate_value"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    
+    <Button
+        android:id="@+id/serversettingbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/title_activity_main_button" />
+</LinearLayout>

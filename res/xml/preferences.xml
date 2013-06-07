@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout="@drawable/background"
+    android:title="@string/system_settings" >
+
+    <PreferenceCategory android:title="@string/ad_setting" >
+
+        <CheckBoxPreference
+            android:layout="@layout/check_preference_yes_layout"
+            android:defaultValue="true"
+            android:key="ad_switch"
+            android:summaryOff="@string/ad_push_close"
+            android:summaryOn="@string/ad_push_open"
+            android:title="@string/ad_push" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/wlan_setting" >
+
+        <CheckBoxPreference
+            android:layout="@layout/check_preference_no_layout"
+            android:defaultValue="false"
+            android:key="wlan_switch"
+            android:summaryOff="@string/closed"
+            android:summaryOn="@string/opened"
+            android:title="@string/wlan" >
+        </CheckBoxPreference>
+
+        <Preference
+            android:layout="@layout/preference_layout"
+            android:key="wlan_network"
+            android:summary="@string/view_aps"
+            android:title="@string/wlan_network" />
+
+        <Preference
+            android:layout="@layout/preference_layout"
+            android:key="more_settings"
+            android:summary="@string/system_wlan"
+            android:title="@string/more_settings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/traffic_monitor" >
+
+        <CheckBoxPreference
+            android:layout="@layout/check_preference_no_layout"
+            android:defaultValue="false"
+            android:key="wlan_auto_switch"
+            android:summaryOff="@string/closed"
+            android:summaryOn="@string/opened"
+            android:title="@string/wlan_auto_switch" />
+
+        <CheckBoxPreference
+            android:layout="@layout/check_preference_yes_layout"
+            android:defaultValue="true"
+            android:key="traffic_monitor_switch"
+            android:summaryOff="@string/closed"
+            android:summaryOn="@string/opened"
+            android:title="@string/traffic_monitor_switch" />
+
+        <ListPreference
+            android:layout="@layout/preference_layout"
+            android:entries="@array/traffic_timeout_period"
+            android:entryValues="@array/traffic_timeout_period_value"
+            android:key="traffic_timeout_period"
+            android:summary="@string/traffic_timeout_period_setting"
+            android:title="@string/traffic_timeout_period" 
+            android:defaultValue="30"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

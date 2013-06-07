@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="org/ksoap2/transport/HttpTransportSE.java|org/ksoap2/transport/Transport.java|com/autelan/auteview/asc/bean/response/GetAdvertiseResult.java|com/asc/webservice/WebServiceUtil.java|org/ksoap2/transport/ServiceConnectionSE.java|com/asc/hessian/HessianUtil.java|com/asc/hessian/IASCServiceHessian.java|com/asc/hessian/|com/asc/webservice/" kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="F:/AnriodWorkSpace/ASC/libs/achartengine-1.0.0.jar" sourcepath="C:/Documents and Settings/sa/My Documents/Downloads/achartengine-1.0.0-javadocs"/>
+	<classpathentry kind="lib" path="E:/anriod/baidustasdk/android_3.1/android_api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/E:/anriod/baidustasdk/android_3.1/doc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

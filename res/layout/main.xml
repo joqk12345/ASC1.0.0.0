@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#147FD6"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Autelan Smart Client"
+            android:textSize="20dp"
+            android:textColor="#F5F5F5"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/quick_message_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/advertisement" />
+
+        <Button
+            android:id="@+id/quick_message_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="最新公告"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/quick_wifisetting1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/wifi" />
+
+        <Button
+            android:id="@+id/quick_wifisetting2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="WIFI快速设置"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/quick_location_btn1"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@drawable/maps" />
+
+        <Button
+            android:id="@+id/quick_location_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="left"
+            android:text="我的位置"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+    </LinearLayout>
+    -->
+
+   
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/quick_signal_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/signal_" />
+
+        <Button
+            android:id="@+id/quick_signal_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="信号探测"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+   <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/quick_network_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/settings" />
+
+        <Button
+            android:id="@+id/quick_network_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="网络工具"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/setting_server_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/shezhi" />
+
+        <Button
+            android:id="@+id/setting_server_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="服务器配置"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    
+      <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/location_update_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/location" />
+
+        <Button
+            android:id="@+id/location_update_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="位置上报"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="#000000" />
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:paddingLeft="12dip"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/check_update_btn1"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/upgrade" />
+
+        <Button
+            android:id="@+id/check_update_btn2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:text="检查更新"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:id="@+id/sliding"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:content="@+id/main_menu"
+        android:handle="@+id/imageViewIcon"
+        android:orientation="vertical"
+        android:topOffset="20dp" >
+
+        <LinearLayout
+            android:id="@+id/main_menu"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/sliding_bg"
+            android:orientation="horizontal" >
+
+            <!-- #ffddedf7  #AAAAAA -->
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:fadingEdge="horizontal"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/settings_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/setting" />
+
+                    <TextView
+                        android:id="@+id/settings_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="系统设置"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/traffic_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/traffic" />
+
+                    <TextView
+                        android:id="@+id/flow_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="流量监控"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout31"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/message_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/advertisement" />
+
+                    <TextView
+                        android:id="@+id/message_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="最新公告"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout33"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/record_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/record" />
+
+                    <TextView
+                        android:id="@+id/record_tv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="历史记录"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageViewIcon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/bar" />
+
+    </SlidingDrawer>
+
+</LinearLayout>

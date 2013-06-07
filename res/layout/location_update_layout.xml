@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#147FD6"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/return_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="Autelan Smart Client"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F5F5F5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- 上报的位置名称 -->
+    <TextView android:id="@+id/locationname"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/location_activity_upload_name" />
+    <EditText
+        android:id="@+id/locationnamevalue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+   
+       <LinearLayout
+         android:orientation="horizontal"  
+    	 android:layout_width="fill_parent"  
+    	 android:layout_height="fill_parent"  
+    	 android:layout_weight="1">   
+	    	<Button
+	        android:id="@+id/locationbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/location_activity_upload_button" />
+	       <Button
+	        android:id="@+id/locationCanelbutton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/location_activity_canel_button" />
+       </LinearLayout>
+    
+     <LinearLayout
+         android:orientation="vertical"  
+    	 android:layout_width="fill_parent"  
+    	 android:layout_height="fill_parent"  
+    	 android:layout_weight="1">   
+      <TextView android:id="@+id/rtrepserviceview"
+              android:layout_width="wrap_content"
+              android:layout_height="40dp"
+              android:text="@string/location_activity_rtrepservice_name" />
+      <LinearLayout
+         android:orientation="horizontal"  
+    	 android:layout_width="fill_parent"  
+    	 android:layout_height="fill_parent"  
+    	 android:layout_weight="1">   
+	     <Button
+	        android:id="@+id/rtrepuploadstart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/title_activity_main_button2" />
+	     <Button
+	        android:id="@+id/rtrepuploadstop"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:text="@string/title_activity_main_button3" />
+     </LinearLayout>
+     </LinearLayout>
+</LinearLayout>

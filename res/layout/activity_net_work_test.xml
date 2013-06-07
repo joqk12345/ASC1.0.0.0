@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+    
+    
+     <LinearLayout
+        android:id="@+id/linearLayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#147FD6"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/return_btn"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="Autelan Smart Client"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F5F5F5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+ 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_below="@+id/linearLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/_text_command"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/command_hint"
+            android:singleLine="true" >
+
+        </EditText>
+        
+    </LinearLayout>
+    
+	<LinearLayout
+	    android:id="@+id/linearLayout3"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/linearLayout1"
+	    android:layout_centerHorizontal="true"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+	    
+	     <Button
+	         android:id="@+id/_btn_execute"
+	         android:layout_width="100dp"
+	         android:layout_height="wrap_content"
+	         android:text="@string/command_tag" />
+
+        <Button
+            android:id="@+id/_btn_abort"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Abort" />
+             
+	</LinearLayout>
+	
+	
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/_reply_area"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:inputType="textMultiLine" />
+
+    </LinearLayout>
+ 
+	 
+ 
+	
+
+</RelativeLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300sp"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dip" >
+        
+        <LinearLayout android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/wep_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/pwd"
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="密码：" />
+
+            <EditText
+                android:id="@+id/pwd_wep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true" />
+
+            <CheckBox
+                android:id="@+id/show_pwd_wep"
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="显示密码" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eap_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dip"
+            android:visibility="gone" >
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="EAP方法：" />
+
+            <Button
+                android:id="@+id/eap_method"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PEAP" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="阶段2身份验证" />
+
+            <Button
+                android:id="@+id/phase2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="无" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="CA证书" />
+
+            <Button
+                android:id="@+id/ca_cert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="不明确的" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="用户证书" />
+
+            <Button
+                android:id="@+id/client_cert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="不明确的" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="身份" />
+
+            <EditText
+                android:id="@+id/identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="匿名身份" />
+
+            <EditText
+                android:id="@+id/anonymous_identity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true" />
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="密码" />
+
+            <EditText
+                android:id="@+id/private_key"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true" />
+
+            <CheckBox
+                android:id="@+id/show_pwd_eap"
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="显示密码" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/psk_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dip"
+            android:visibility="gone" >
+
+            <TextView
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dip"
+                android:textColor="#ffffffff"
+                android:text="密码：" />
+
+            <EditText
+                android:id="@+id/pwd_psk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true" />
+
+            <CheckBox
+                android:id="@+id/show_pwd_psk"
+                style="?android:attr/textAppearanceSmallInverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffffff"
+                android:text="显示密码" />
+
+            <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="网络类型: " />
+
+            <Button
+                android:id="@+id/net_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WPA/WPA2" />
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

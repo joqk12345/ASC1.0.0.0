@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#147FD6"
+        android:orientation="horizontal" >
+
+         <Button
+            android:id="@+id/return_btn"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingRight="25dp"
+            android:gravity="center"
+            android:text="Autelan Smart Client"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#F5F5F5"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        mce_style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ad_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ad_message"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <WebView
+        android:id="@+id/ad_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|fill_horizontal" />
+
+    <!-- 
+    <TextView
+        android:id="@+id/ad_footer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/footer"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="visible" />
+        -->
+
+</LinearLayout>

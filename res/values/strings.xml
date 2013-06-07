@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Autelan Smart Client</string>
+    <string name="system_settings">系统设置</string>
+    <string name="ad_setting">推送设置</string>
+    <string name="ad_push">信息推送</string>
+    <string name="ad_push_open">开启信息推送</string>
+    <string name="ad_push_close">关闭信息推送</string>
+    <string name="wlan_setting">WLAN设置</string>
+    <string name="wlan">WLAN</string>
+    <string name="opened">已开启</string>
+    <string name="closed">已关闭</string>
+    <string name="wlan_network">WLAN网络</string>
+    <string name="view_aps">查看和管理无线接入点</string>
+    <string name="more_settings">更多设置</string>
+    <string name="system_wlan">无线和网络设置</string>
+    <string name="wlan_auto_switch">WLAN自控制开关</string>
+    <string name="traffic_monitor_switch">流量监控开关</string>
+    <string name="wifi_state_disabling">正在关闭...</string>
+    <string name="wifi_state_disabled">已关闭</string>
+    <string name="wifi_state_enabling">正在打开...</string>
+    <string name="wifi_state_enabled">已开启</string>
+    <string name="wifi_state_unknown">未知状态</string>
+    <string name="wifi_connected">已连接</string>
+    <string name="wifi_configed">已记住</string>
+    <string name="wifi_disconnected">连接已断开</string>
+    <string name="wifi_level_1">弱</string>
+    <string name="wifi_level_2">中</string>
+    <string name="wifi_level_3">较强</string>
+    <string name="wifi_level_4">很强</string>
+    <string name="wifi_wep">WEP安全</string>
+    <string name="wifi_open">开放</string>
+    <string name="wifi_psk">WPA/WPA2 PSK安全</string>
+    <string name="wifi_eap">802.1x EAP安全</string>
+    <string name="wifi_security">安全</string>
+    <string name="wifi_signal">信号强度</string>
+    <string name="wifi_speed">连接速度</string>
+    <string name="wifi_ip">IP地址</string>
+    <string name="check_out">查看</string>
+    <string name="traffic_monitor">流量监控</string>
+    <string name="traffic_rank">统计排行</string>
+    <string name="tips">提示</string>
+    <string name="function_not_support">您的手机不支持此功能！</string>
+    <string name="yes">确定</string>
+    <string name="cancel">取消</string>
+    <string name="traffic_timeout_period_setting">超时无流量自动关闭WIFI</string>
+    <string name="traffic_timeout_period">流量超时时间</string>
+    <string name="sure_to_delete">确定删除该记录？</string>
+    <string name="delete">删除</string>
+    <string name="menu">菜单</string>
+    <string name="ad_message">最新公告</string>
+    <string name="no_message">目前没有公告信息！</string>
+    <string name="server_setting_promot">提交失败！</string>
+     <string name="server_setting_promot2">设置成功！</string>
+    <string name="you_have_new_message">您有新的消息</string>
+    <string name="exit">退出</string>
+    <string name="signal_unit">信号强度[dBm]</string>
+    <string name="graph_dashborad">仪表图</string>
+    <string name="graph_trend">走势图</string>
+    <string name="open_wifi_waiting">正在开启WIFI,请稍等...</string>
+    <string name="close_wifi_waiting">正在关闭WIFI,请稍等...</string>
+    <string name="software_update">软件更新</string>
+    <string name="update_available">发现新版本！是否更新？</string>
+    <string name="no_update">您的版本已是最新！</string>
+    <string name="update_check_wait">正在检查更新...</string>
+    <string name="update_wait">正在更新，请稍等...</string>
+    <string name="network_not_avilable">网络不可用，请先设置网络！</string>
+    <string name="footer">版权所有 © 2006-2012 傲天动联技术有限公司</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_net_work_test">Command</string>
+    <string name="command_tag">GO</string>
+    <string name="command_hint">Inputting executable command</string>
+    <string name="command_alert">Pls input executable command!</string>
+    <string name="clear_console">Clear console</string>
+    <string name="title_activity_server_setting">ServerSettingActivity</string>
+
+    <!-- 服务器设置按钮 -->
+    <string name="main_layout_URL">服务器路径</string>
+    <string name="main_layout_SSID">SSID</string>
+    <string name="server_layout_collect_period">采集周期(s)</string>
+    <string name="server_layout_collect_rate">采集轮次</string>
+    <string name="title_activity_main_button">提交</string>
+    
+    <string name="title_activity_main_button2">实时上报</string>
+    <string name="title_activity_main_button3">停止实时上报</string>
+    
+    <string name="title_activity_location_update">LocationUpdateActivity</string>
+    
+    <string name="location_activity_upload_name">位置</string>
+    <string name="location_activity_upload_button">上报</string>
+    <string name="location_activity_canel_button">取消</string>
+    
+    
+    <string name="location_activity_rtrepservice_name">实时位置上报开关</string>
+    
+    <!-- 位置上传部分 -->
+ 	<string name="no_ssid">没有相应的ssid与之相匹配</string>
+ 	<string name="upload_success">该轮次上传结束</string>
+ 	
+ 	
+</resources>
